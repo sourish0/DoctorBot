@@ -4,7 +4,7 @@
     
 <div class="container">
     <h2 id="symptomform">Symptoms Input Form</h2>
-    <form method="POST" action="/tool">
+    <form method="POST" action="/result1">
         <div class="form-group">
             <label for="symptom1">Symptom 1:</label>
             <input type="text" id="symptom1" name="symptom1">
@@ -28,18 +28,5 @@
         <input type="submit" value="Submit" id="formsubmit">
     </form>
 </div>
-
-<script> 
-    $( function() { 
-      var availableTags = [ 
-          {% for symptom in symptoms %} 
-              "{{symptom}}", 
-          {% endfor %} 
-      ]; 
-      $( "#symptom1" ).autocomplete({ 
-        source: availableTags 
-      }); 
-    } ); 
-    </script>
 
 {% endblock %}
