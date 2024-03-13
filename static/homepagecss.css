@@ -96,3 +96,44 @@
     background-size: cover;
     height: calc(100vh - 80px);
   }
+
+  .welcome{
+    width: 630px;
+    height: 100px;
+    padding: 30px;
+    font-size: 50px;
+    color: #1ad0e8;
+    position: fixed;
+    top: 200px;
+    bottom: 0px;
+    right: 0px;
+    left: 230px;
+    animation: fadein 2s;
+  }
+
+  .introduction{
+    width: 600px;
+    height: 250px;
+    padding: 50px;
+    position: fixed;
+    top: 270px;
+    bottom: 0px;
+    right: 0px;
+    left: 220px;
+    color: rgb(53, 53, 53);
+    animation: fadein 2.5s;
+  }
+
+#doctorbot{
+  height: 450px;
+  width: 450px;
+  position: fixed;
+  top: 120px;
+  left: 800px;
+  animation: fadein 2.5s;
+}
+
+@keyframes fadein{
+  5% { opacity: 0; }
+  100% { opacity: 1; }
+}

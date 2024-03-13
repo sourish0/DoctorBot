@@ -96,3 +96,41 @@
     background-size: cover;
     height: calc(100vh - 80px);
   }
+
+  .container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid #1ad0e8;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .container label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    background-color: #1ad0e8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    bac
